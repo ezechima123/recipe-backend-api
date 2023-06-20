@@ -32,7 +32,7 @@ This repository implemented a Recipe Backend Management System
 }
 ```
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/loginuser.jpg">
+<img title="a title" alt="Alt text" src="images/loginuser.jpg">
 <br/>
 
 | **Action**  	| **Create a Recipe**                  	|
@@ -60,7 +60,7 @@ This repository implemented a Recipe Backend Management System
     "vegetarian": true
 }
 ```
-<img title="a title" alt="Alt text" src="docs/images/createrecipe.jpg">
+<img title="a title" alt="Alt text" src="images/createrecipe.jpg">
 <br/>
 
 | **Action**  	| **Fetch a Recipe**                        	|
@@ -72,7 +72,7 @@ This repository implemented a Recipe Backend Management System
 http://localhost:8654/api/v1/recipes/6490efed511e704670c79a51
 
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/getrecipe.jpg">
+<img title="a title" alt="Alt text" src="images/getrecipe.jpg">
 <br/>
 
 | **Action**  	| **Update a Recipe**                        	|
@@ -103,7 +103,7 @@ http://localhost:8654/api/v1/recipes/6490efed511e704670c79a51
 
 
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/updaterecipe.jpg">
+<img title="a title" alt="Alt text" src="images/updaterecipe.jpg">
 <br/>
 
 | **Action**  	| **Delete a Recipe**                        	        |
@@ -116,7 +116,7 @@ http://localhost:8654/api/v1/recipes/6490efed511e704670c79a51
 http://localhost:8654/api/v1/recipes/6490efed511e704670c79a51/Delete Recipe by Me
 
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/deleterecipe.jpg">
+<img title="a title" alt="Alt text" src="images/deleterecipe.jpg">
 <br/>
 
 | **Action**  	| **Filter and Search Recipe**                        	|
@@ -130,7 +130,7 @@ http://localhost:8654/api/v1/recipes/6490efed511e704670c79a51/Delete Recipe by M
 http://localhost:8654/api/v1/recipes/search?filter=vegetarian:eq:true
 ```
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/search1.jpg">
+<img title="a title" alt="Alt text" src="images/search1.jpg">
 <br/>
 
 
@@ -139,7 +139,7 @@ http://localhost:8654/api/v1/recipes/search?filter=vegetarian:eq:true
 http://localhost:8654/api/v1/recipes/search?filter=servings:eq:1&filter=ingredients:in:Pepper
 ```
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/search2.jpg">
+<img title="a title" alt="Alt text" src="images/search2.jpg">
 <br/>
 
 
@@ -148,11 +148,11 @@ http://localhost:8654/api/v1/recipes/search?filter=servings:eq:1&filter=ingredie
 http://localhost:8654/api/v1/recipes/search?filter=ingredients:nin:potatoes&filter=instructions:in:Cut
 ```
 <br/>
-<img title="a title" alt="Alt text" src="docs/images/search3.jpg">
+<img title="a title" alt="Alt text" src="images/search3.jpg">
 <br/>
 
 
 
-# The Software Documentation is located on the docs folder
+# The Software Documentation is SoftwareDesignDocument
 
 
