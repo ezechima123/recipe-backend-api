@@ -11,9 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * <p>
  * A model class for error details
- * </p>
  * 
  * @author Chima Emmanuel Ezeamama
  * @version 1.0
@@ -24,6 +22,7 @@ import lombok.NoArgsConstructor;
 public class ErrorDetails {
     private int status;
     private Long timestamp;
+    private String message;
     private List<String> errors = new ArrayList<>();
 
     public void addError(String message) {
