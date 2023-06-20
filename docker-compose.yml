@@ -15,3 +15,12 @@ services:
       - '6379:6379'
     depends_on:
       - mongo
+
+  recipe-backend:
+    container_name: recipe-backend-api
+    image: 'ezechima123/recipe-backend-api'
+    restart: on-failure
+    ports:
+      - '8654:8654'
+    depends_on:
+      - redis

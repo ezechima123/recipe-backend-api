@@ -1,27 +1,27 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: recipe-backend-api-1.0-SNAPSHOT
+  name: recipe-backend-api
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: recipe-backend-api-1.0-SNAPSHOT
+      app: recipe-backend-api
   template:
     metadata:
       labels:
-        app: recipe-backend-api-1.0-SNAPSHOT
+        app: recipe-backend-api
     spec:
       containers:
         - name: recipe-backend-api
-          image: ezechima123/recipe-backend-api-1.0-SNAPSHOT:1.0
+          image: ezechima123/recipe-backend-api:latest
           imagePullPolicy: Always
           ports:
-            - containerPort: 8080
+            - containerPort: 8654
 #          readinessProbe:
 #            httpGet:
 #              path: /actuator/health
-#              port: 8080
+#              port: 8654
 #            initialDelaySeconds: 5
 #          livenessProbe:
 #            httpGet:
@@ -37,9 +37,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8654
+      targetPort: 8654
       protocol: TCP
       nodePort: 31000
   selector:
-    app: recipe-backend-api-1.0-SNAPSHOT
+    app: recipe-backend-api
